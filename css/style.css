@@ -1,0 +1,35 @@
+.navbar{
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    font-size: 8px;
+}
+.navbar-nav{
+    width: 100%;
+}
+.btn_xbox{
+    background-color: rgb(139, 216, 10);
+    color: rgb(5, 75, 22);
+}
+
+body img{
+    width: 100%;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+/* FIRST BIG SECTION */
+.big-section{
+    background-image: url(../img/WhatsApp\ Image\ 2022-10-16\ at\ 13.19.15.jpeg);
+    color: white;
+    /* background-size: contain; */
+    background-repeat:no-repeat;
+    min-height: 80vh;
+}
+.shop_xbox{
+    color: rgb(16, 124,18);
+}
+.shop_xbox img{
+    fill: rgb(16, 124,18);
+}
