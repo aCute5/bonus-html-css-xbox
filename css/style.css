@@ -2,7 +2,7 @@
     background-color: white;
     height: 10vh;
     width: 100%;
-    font-size: 8px;
+    font-size: 10px;
 }
 .navbar-nav{
     width: 100%;
@@ -21,15 +21,43 @@ body img{
 }
 /* FIRST BIG SECTION */
 .big-section{
+    width: 100%;
     background-image: url(../img/WhatsApp\ Image\ 2022-10-16\ at\ 13.19.15.jpeg);
     color: white;
-    /* background-size: contain; */
+    background-size: 110% 100% ;
     background-repeat:no-repeat;
-    min-height: 80vh;
+    min-height: 50vh;
+    background-position: center;
+    background-origin: border-box;
 }
 .shop_xbox{
     color: rgb(16, 124,18);
+    border: none;
 }
 .shop_xbox img{
     fill: rgb(16, 124,18);
+}
+.xbox-giants-cards{
+    height: 100vh;
+}
+.xbox-giants-cards .container{
+    height: 100%;
+}
+.ow{
+    height: 100%;
+}
+.overwatch{
+    background-image: url(../img/OW2-LaunchArt_EDP-Page-Hero_1920x1080-eb6f6f1cce12d838b45e.jpg) ;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 10%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-end;
+}
+.yellow-btn{
+    background-color: yellow;
+    width: 20%;
 }
